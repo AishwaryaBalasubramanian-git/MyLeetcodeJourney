@@ -1,0 +1,2 @@
+# MyLeetcodeJourney
+Solutions to leetcode 
