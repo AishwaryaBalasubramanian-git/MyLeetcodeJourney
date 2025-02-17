@@ -8,7 +8,7 @@ class Solution {
             int H = Math.min(height[L],height[R]);
             int area = W*H;
             maxArea = Math.max(maxArea,area);
-            if(height[L]<height[R]){
+            if(height[L]<=height[R]){
                 L++;
             }else{
                 R--;
