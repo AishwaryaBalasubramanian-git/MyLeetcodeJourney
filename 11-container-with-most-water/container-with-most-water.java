@@ -1,7 +1,7 @@
 class Solution {
     static{
         for(int i =0;i<500;i++){
-           maxArea(new int[]{1,1});
+           maxArea(new int[]{0,0});
         }
     }
 
