@@ -28,12 +28,8 @@ class Solution {
                 result.add(nums2[p2]);
                 p2++;
             }
-            int[][] resultFinal = new int[result.size()][2];
-            for(int k =0;k<result.size();k++){
-                resultFinal[k]=result.get(k);
-            }
         
-        return resultFinal;
+        return result.toArray(new int[result.size()][]);
         
     }
 }
