@@ -3,7 +3,7 @@ class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int n = nums.length;
         Arrays.sort(nums);
-        int resultSum = 0;
+        int resultSum = nums[0]+nums[1]+nums[2];
         int closestDistance = Integer.MAX_VALUE;
 
         for(int i=0;i<n;i++){
