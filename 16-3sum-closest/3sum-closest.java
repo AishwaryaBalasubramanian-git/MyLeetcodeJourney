@@ -18,7 +18,7 @@ class Solution {
                 }else{
                     k--;
                 }
-                int currentDistance = Math.abs(sum-target);
+                int currentDistance = Math.abs(target-sum);
                 if(currentDistance<closestDistance){
                     resultSum = sum;
                     closestDistance = currentDistance;
