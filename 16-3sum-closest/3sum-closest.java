@@ -4,9 +4,9 @@ class Solution {
         int n = nums.length;
         Arrays.sort(nums);
         int resultSum = nums[0]+nums[1]+nums[2];
-        int closestDistance = Integer.MAX_VALUE;
+        int closestDistance = Integer.MAX_VALUE/2;
 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n-2;i++){
             int j = i+1;
             int k = n-1;
             while(j<k){
